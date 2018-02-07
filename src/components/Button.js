@@ -8,7 +8,16 @@ export const Button = props => {
     onClick,
     children
   } = props;
-  return <button type={type} name={name} onClick={onClick}>{children}</button>;
+  return (
+    <button 
+      type={type}
+      name={name}
+      onClick={onClick}
+      className='button'
+    >
+      {children}
+    </button>
+  );
 };
 
 Button.defaultValues = {

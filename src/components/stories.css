@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.button {
+  min-height: 5vh;
+  min-width: 20vh;
+  border: none;
+  background-color: #6180ce;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.button:hover {
+  background-color:#759cff;
+}
+
+.button:active {
+  background-color: #ffffff;
+  border: 2px solid #759cff;
+}
+
+.decorated {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.decorated #write-out {
+  display: flex;
+  justify-content: center;
+}
+
+.decorated .button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  min-height: 20vh;
+}
