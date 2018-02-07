@@ -8,21 +8,21 @@ export const Button = props => {
     onClick,
     children
   } = props;
-  return <button type={type} name={name} onClick={onClick}>{children}</button>
-}
+  return <button type={type} name={name} onClick={onClick}>{children}</button>;
+};
 
 Button.defaultValues = {
-  label: 'Click Me!',
   name: 'button',
   type: 'button',
-  onClick: () => {}
+  onClick: () => {},
+  children: 'Click Me!',
 };
 
 Button.propTypes = {
-  label: PropTypes.string,
   name: PropTypes.string,
   type: PropTypes.oneOf('submit', 'reset', 'button'),
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  children: PropTypes.string
 };
 
 export default Button;
