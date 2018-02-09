@@ -39,4 +39,6 @@ html, body {
   justify-content: center;
   flex-direction: row;
   min-height: 20vh;
+  margin: 20px;
+  border-radius: 4px;
 }
