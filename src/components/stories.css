@@ -4,6 +4,11 @@ html, body {
   margin: 0;
 }
 
+.error {
+  color: red;
+  font-size: 10pt;
+}
+
 .button {
   min-height: 5vh;
   min-width: 20vh;
